@@ -6,5 +6,5 @@ if [ ! -f "index.html" ]; then
   exit 1
 fi
 
-echo "¡Hola Mundo desde Git Hooks!"
+echo "¡Hola Mundo desde Git Hooks 2!"
 exit 0
