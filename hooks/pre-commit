@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Comprobando proyecto..."
+if [ ! -f "index.html" ]; then
+  echo "Error: Archivo 'index.html' no encontrado. Por favor, asegúrate de incluirlo."
+  exit 1
+fi
+
+echo "¡Hola Mundo desde Git Hooks!"
+exit 0
