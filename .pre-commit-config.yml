@@ -1,0 +1,10 @@
+- repo: https://github.com/pre-commit/mirrors-flake8
+  rev: v4.0.1
+  hooks:
+    - id: flake8
+
+- repo: https://github.com/commitizen-tools/commitizen
+  rev: v2.1.0
+  hooks:
+    - id: commitlint
+      args: ['--config', '.commitlintrc.json']
